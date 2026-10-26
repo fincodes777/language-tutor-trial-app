@@ -1,0 +1,99 @@
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css";
+
+@import "nativewind/theme";
+
+@theme {
+  --color-lingua-purple: #6c4ef5;
+  --color-lingua-deep-purple: #5b3bf6;
+  --color-lingua-blue: #4d8bff;
+  --color-lingua-green: #21c16b;
+  --color-success: #21c16b;
+  --color-warning: #ffcc00;
+  --color-streak: #ffb800;
+  --color-error: #ff4d4f;
+  --color-info: #4d8bff;
+  --color-text-primary: #0d132b;
+  --color-text-secondary: #6b7280;
+  --color-border: #e5e7eb;
+  --color-surface: #f6f7fb;
+  --color-background: #ffffff;
+  --font-poppins: "Poppins_400Regular";
+  --font-poppins-medium: "Poppins_500Medium";
+  --font-poppins-semibold: "Poppins_600SemiBold";
+  --font-poppins-bold: "Poppins_700Bold";
+}
+
+:root {
+  color-scheme: light;
+}
+
+@layer utilities {
+  .H1 {
+    font-size: 32px;
+    line-height: 38px;
+    font-family: "Poppins_700Bold";
+    letter-spacing: -0.02em;
+  }
+
+  .H2 {
+    font-size: 24px;
+    line-height: 30px;
+    font-family: "Poppins_600SemiBold";
+    letter-spacing: -0.01em;
+  }
+
+  .H3 {
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Poppins_600SemiBold";
+  }
+
+  .H4 {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Poppins_500Medium";
+  }
+
+  .BodyLarge {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Poppins_400Regular";
+  }
+
+  .BodyMedium {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Poppins_400Regular";
+  }
+
+  .BodySmall {
+    font-size: 13px;
+    line-height: 18px;
+    font-family: "Poppins_400Regular";
+  }
+
+  .Caption {
+    font-size: 11px;
+    line-height: 14px;
+    font-family: "Poppins_400Regular";
+  }
+
+  .font-poppins {
+    font-family: "Poppins_400Regular";
+  }
+
+  .font-poppins-medium {
+    font-family: "Poppins_500Medium";
+  }
+
+  .font-poppins-semibold {
+    font-family: "Poppins_600SemiBold";
+  }
+
+  .font-poppins-bold {
+    font-family: "Poppins_700Bold";
+  }
+}
+
